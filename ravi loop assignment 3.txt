@@ -1,0 +1,249 @@
+1.	Write a Java program that displays the sum of n odd natural numbers.
+ Ans:
+     class Sum{
+   public static void main(String args[]){
+int n=10;
+System.out.println("Sum of "+n+" odd natural numbers is "+(n*n));
+}
+}
+output:
+sum of 10 odd natural numbers is 100
+
+=== Code Execution Successful ===
+
+
+
+2.	Print numbers from 1 to 10.
+Ans:
+class Printnum{
+   public static void main(String args[]){
+for(int i=1;i<=10;i++)
+  System.out.println(i);
+}
+}
+output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+=== Code Execution Successful ===
+
+3.	Calculate the sum of numbers from 1 to 100.
+Ans:class Sum{
+public static void main(String args[]){
+int i=1,sum=0;
+while(i<=100){
+sum+=i;//0+1,1+2
+i=i+1;
+}
+System.out.println(sum);
+}}
+output:
+5050
+
+=== Code Execution Successful ===
+4.	Print all even numbers from 120 to 130.
+Ans:
+   class Prog{
+public static void main(String args[]){
+int n=120,m=130;
+while(n<=m){
+if(n%2==0)
+  System.out.println(n);
+n++;
+}
+}
+}
+output:
+120
+122
+124
+126
+128
+130
+
+=== Code Execution Successful ===
+
+5.	Write a java program to print sum of all even and odd numbers.
+Ans:
+class Prog{
+public static void main(String args[]){
+int n=100,sumeve=0,sumod=0;
+for(int i=1;i<=n;i++){
+    if(i%2==0)
+    {
+    sumeve+=i;
+    }
+    else{
+    sumod+=i;
+    }
+}
+System.out.println("sum of "+n+" odd numbers is "+sumod);
+System.out.println("sum of "+n+" even numbers is "+sumeve);
+}
+}
+output:
+sum of 100 odd numbers is 2500
+sum of 100 even numbers is 2550
+
+=== Code Execution Successful ===
+
+6.	Print the multiplication table of a given number.
+Ans:
+class Prog{
+public static void main(String a[]){
+int n=189;
+for(int i=1;i<=10;i++){
+    System.out.println(n+" x "+i+" = "+(n*i));
+}
+}
+}
+
+output:
+189 x 1 = 189
+189 x 2 = 378
+189 x 3 = 567
+189 x 4 = 756
+189 x 5 = 945
+189 x 6 = 1134
+189 x 7 = 1323
+189 x 8 = 1512
+189 x 9 = 1701
+189 x 10 = 1890
+
+=== Code Execution Successful ===
+7.	Print all the elements are divisible by given number.
+Ans:
+     class Prog{
+public static void main(String a[]){
+int n=16;
+for(int i=1;i<100;i++){
+    System.out.println(n*i);
+    
+}
+}
+}
+output:
+16
+32
+48
+64
+80
+96
+112
+128
+144
+160
+176
+192
+208
+224
+240
+256
+272
+288
+304
+320
+336
+352
+368
+384
+400
+416
+432
+448
+464
+480
+496
+512
+528
+544
+560
+576
+592
+608
+624
+640
+656
+672
+688
+704
+720
+736
+752
+768
+784
+800
+816
+832
+848
+864
+880
+896
+912
+=== Code Exited With Errors ===
+8.	Write a program in Java to input 5 numbers from the keyboard and find their sum and average.
+Ans:
+    import java.util.*;
+class Prog{
+public static void main(String a[]){
+    Scanner sc=new Scanner(System.in);
+int sum=0;
+for(int i=1;i<=5;i++){
+    int n=sc.nextInt();
+    sum+=n;
+}
+System.out.println(sum);
+float avg=(float)sum/5;
+System.out.println(avg);
+}
+}
+output:
+1
+3
+5
+9
+0
+18
+3.6
+
+=== Code Execution Successful ===
+9.	Write a Java program to display the square of the given number up to an integer.
+Ans:class Prog{
+public static void main(String a[]){
+    for(int i=1;i<=20;i++){
+        System.out.println("Square of "+i+" is "+(i*i));
+    }
+}
+}
+output:
+Square of 1 is 1
+Square of 2 is 4
+Square of 3 is 9
+Square of 4 is 16
+Square of 5 is 25
+Square of 6 is 36
+Square of 7 is 49
+Square of 8 is 64
+Square of 9 is 81
+Square of 10 is 100
+Square of 11 is 121
+Square of 12 is 144
+Square of 13 is 169
+Square of 14 is 196
+Square of 15 is 225
+Square of 16 is 256
+Square of 17 is 289
+Square of 18 is 324
+Square of 19 is 361
+Square of 20 is 400
+   
+10.	Write a program in Java to input 5 numbers from the keyboard and find their sum and average.
+Ans: same as 8th question.
