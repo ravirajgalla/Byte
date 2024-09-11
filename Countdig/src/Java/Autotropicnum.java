@@ -11,7 +11,7 @@ public class Autotropicnum {
 	 sum+=rem;
 	 while(i>0) {
 		 int rem1=i%10;
-		 sum1+=rem1;
+		 sum1=sum1+rem1;
 		 i/=10;
 	 }
 	 if(sum==sum1)
